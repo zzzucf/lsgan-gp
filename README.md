@@ -20,7 +20,7 @@ D_loss = LeakyReLU(D(x) - D(G(z)) + lambda * \delta(x, G(z))).mean()
 
 G_loss = D(G(z)).mean()
 
-It's worthy noted that we use LeakReLU for genelarized LS-GAN. And this function is only a special case of ()+ from the original proof. Any other ()+ function also works under the genelarized theorem of LS-GAN.
+It's worthy noted that we use LeakyReLU for generalized LS-GAN. And this function is only a special case of ()+ from the original proof. Any other ()+ function also works under the generalized theorem of LS-GAN.
 
 The gradient penalty applies the form proposed originally in the first version of LS-GAN, Chapter 5 [[pdf](https://arxiv.org/pdf/1701.06264v1.pdf)], quoted here
 "Alternatively, one may consider to directly minimize
