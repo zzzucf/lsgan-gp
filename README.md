@@ -1,8 +1,8 @@
 # Loss-Sensitive GAN
 
-Framework: Pytorch
+Framework: Pytorch 0.2.0.post1 or above
 
-Language: Python
+Language: Python 2.7 or above
 
 Implemented by: Zihang Zou, [[Laboratory for MAchine Perception and Learning(MAPLE)](http://maple.cs.ucf.edu)], University of Central Florida
 
