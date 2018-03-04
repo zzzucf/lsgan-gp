@@ -61,11 +61,11 @@ The default slope is 0, which is LS-GAN,
 ```bash
 $ python lsgan-gp.py --dataset folder --dataroot celebA_crop --cuda --niter 25
 ```
-if slope is set to 1, it is WGAN
+if slope is set to 1, it is WGAN,
 ```bash
 $ python lsgan-gp.py --dataset folder --dataroot celebA_crop --cuda --niter 25 --slope 1
 ```
-Or you can train with slope as GLS-GAN, and 
+Or you can explore more slope with GLS-GAN, for example,
 ```bash
 $ python lsgan-gp.py --dataset folder --dataroot celebA_crop --cuda --niter 25 --slope 0.01
 ```
