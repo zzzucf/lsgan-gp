@@ -1,5 +1,9 @@
 # Loss-Sensitive GAN
 
+Framework: Pytorch
+
+Language: Python
+
 Implemented by: Zihang Zou, [[Laboratory for MAchine Perception and Learning(MAPLE)](http://maple.cs.ucf.edu)], University of Central Florida
 
 Please cite the following paper when referring to the following algorithms:
@@ -31,7 +35,7 @@ in experiments."
 
 ## Usage
 ### 1.PYTORCH version
-1.In this implementation, we use the following version of PYTORCH, 
+1.In this implementation, we use the following version of PYTORCH (any version beyond this will also work), 
 ``` bash
 $ pip list | grep torch
 torch (0.2.0.post1)
